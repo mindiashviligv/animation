@@ -1,15 +1,56 @@
-.container {
-	background-color: violet;
-	background: radial-gradient( circle, black 10%, darkblue 20%, blue 30%, violet 40% );
-	height: 400px;
+.forest {
+	background-image: url(images/road.png);
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-color: lightgreen;
+	position: relative;
+}
+
+
+.tts {
+	position: absolute;
+	height: 300px;
+	top: 450px;
+	left: 300px;
+	animation: ttsmove 5s infinite;
+}
 
 
 
-
-
+@keyframes ttsmove {
+	0% { top: 250px  }
+	50% {top: 300px}
+	100% {top: 450px}
+	0% {left: 650px}
+	50% {left: 600px}
+	100% {left: 300px}
+	0% {height: 100px}
+	50% {height: 150px}
+	100% {height: 300px;}
 
 
 }
+
+
+
+
+
+
+
+
+	
+	
+
+	
+	
+
+
+
+
+
+
+
 
 
 
